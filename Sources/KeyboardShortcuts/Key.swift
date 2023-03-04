@@ -117,6 +117,10 @@ extension KeyboardShortcuts {
 		public static let f18 = Self(kVK_F18)
 		public static let f19 = Self(kVK_F19)
 		public static let f20 = Self(kVK_F20)
+		public static let f21 = Self(kVK_F20 + 1)
+		public static let f22 = Self(kVK_F20 + 2)
+		public static let f23 = Self(kVK_F20 + 3)
+		public static let f24 = Self(kVK_F20 + 4)
 
 		// MARK: Keypad
 
@@ -185,7 +189,11 @@ extension KeyboardShortcuts.Key {
 		.f17,
 		.f18,
 		.f19,
-		.f20
+		.f20,
+		.f21,
+		.f22,
+		.f23,
+		.f24
 	]
 
 	/**
